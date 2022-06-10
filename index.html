@@ -4,11 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../rsschool-cv/style/normalize.css">
+    <link rel="stylesheet" href="../rsschool-cv/style/style.css">
     <title>HTML,CSS & Git Basics</title>
 </head>
 <body>
-    <div class="wrap">
-        
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-logo">
+                    <img src="../rsschool-cv/img/images.png" alt="logo">
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-items">
+                        <a href="#about" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="main-about">
+                <h1 class="myName">Daniil Dalinchuk</h1>
+                <img src="../rsschool-cv/img/199291165_436431750880874_9119770282958966466_n.jpg" alt="MyPhoto" class="main-about__img" >
+            </div>
+
+            <div class="main-aboutMe" id="about">
+                <p class="aboutMe" >Hello, my name is Daniil.<br> I am 20 years old. I live in Belarus in Gomel city.<br>
+                    I study at RSschool. I like to study and I want to be a programmer in the future.</p>
+            </div>
+            <h2 class="main__header" id="contacts">Contacts</h2>
+            <div class="main-contacts">
+                <p class="main-contacts__link"><a href="https://www.instagram.com/korol_wokolada/" class="main-contacts__inst"  target="_blank">My instagram</a></p>
+                <p class="main-contacts__link">+375296663344</p>
+                <p class="main-contacts__link">daniilol1642@gmail.com</p>
+                <p class="main-contacts__link"><a class="main-contacts__github" href="https://github.com/korol-wokolada" target="_blank">Github</a></p>
+            </div>
+            <h2 class="main__skills">Skills</h2>
+            <div class="main-skills" id="skills">
+                <p class="main-skills__lan">HTML</p>
+                <p class="main-skills__lan">CSS</p>
+                <p class="main-skills__lan">JavaScript</p>
+            </div>
+            <h2 class="main__education"  id="education">Education</h2>
+            <div class="main-education">
+                <p class="main-education__school">Studying in RSschool</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <a href="https://github.com/korol-wokolada" class="footer-link__Git" target="_blank">My Github</a>
+            <p class="footer_year">2022</p>
+            <a href="https://rs.school/js/" class="footer-link__RS" target="_blank"><img src="../rsschool-cv/img/2022-06-10_11-36-04.png" alt="logo" width="100px"></a>
+        </footer>
     </div>
 </body>
 </html>

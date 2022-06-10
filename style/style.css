@@ -1,0 +1,105 @@
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(69, 68, 68, 0.156);
+}
+li{
+    list-style-type: none;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+.nav-link{
+    color:black;
+}
+.nav-items+.nav-items{
+    margin-left: 40px;
+}
+.nav-items:hover{
+    border-bottom:4px solid goldenrod;
+}
+.myName{
+    margin-top: 150px;
+}
+.aboutMe{
+    text-align: center;
+}
+.main-about{
+    display: flex;
+    justify-content: space-between;
+}
+.main-about__img{
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+.main-contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.main__header{
+    text-align: center;
+}
+.main-contacts__link{
+    border: 2px solid black;
+    border-radius: 100px;
+    color: rgb(226, 192, 43);
+    padding: 10px;
+    background-color: black;
+    margin: 5px;
+    font-size: 18px;
+}
+.main-contacts__link:hover{
+    padding:40px;
+    transition: 2s;
+    font-size: 36px;
+}
+.main-contacts__inst{
+    color: rgb(226, 192, 43);
+}
+.main-contacts__github{
+    color: rgb(226, 192, 43);
+}
+.main-skills{
+    display: flex;
+    justify-content: space-between;
+}
+.main__skills{
+    text-align: center;
+    margin-top: 40px;
+}
+.main-skills__lan{
+
+    border: 2px solid black;
+    border-radius: 100px;
+    color: rgb(226, 192, 43);
+    padding: 10px;
+    background-color: black;
+    font-size: 18px;
+}
+.main__education{
+    text-align: center;
+    margin-top: 20px
+}
+.main-education__school{
+    text-align: center;
+}
+.footer{
+    border-top: 2px solid rgba(69, 68, 68, 0.156);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link__Git{
+    margin-top: 15px;
+    color: black;
+}
